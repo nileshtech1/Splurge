@@ -1,0 +1,61 @@
+working on splurge app start on 17-11-2025
+App live on 26-01-2026
+Total 52 working days on this project
+
+project details
+name: splurge
+type: react native mobile app (android + ios)
+version: 0.0.1
+started: 17-11-2025
+node: >=20
+backend api base url: https://splurge.techsimba.in/splurge/public/api/
+key stack: react 19.1.0, react-native 0.81.5, redux toolkit, react navigation, firebase auth/messaging, axios
+
+working details
+run dev server: npm start
+run android: npm run android
+run ios: npm run ios
+lint: npm run lint
+tests: npm test
+
+key features (from screens)
+auth: signup, login, forgot password
+dashboard: spend overview, daily/weekly averages
+expenses: group expenses, group details, settle up flows
+ledger: transaction ledger
+wishlist: save items and goals
+comparison: compare spend or options
+calculator: quick calculator
+notifications: in-app notification center
+profile: personal info, change password
+learn: articles, videos, founders content
+support: help/support and terms/policies
+
+api + auth details
+base api: https://splurge.techsimba.in/splurge/public/api/
+auth endpoints: login, register, google-login, forgot-password, reset-password
+auth flows: email/password login, google sign-in, apple sign-in (ios -> google-login endpoint)
+token usage: api requests use Authorization: Bearer <token> for protected routes
+token location: login response stored in redux (LoginData.token); used across app
+push tokens: fcm token saved locally and sent to api (save-device-token)
+
+ats optimized resume version
+
+Splurge - Finance & Expense Management App | React Native, Redux Toolkit, Firebase, Gemini API | Nov 2025 - Jan 2026
+
+- Built and launched a cross-platform personal finance and group expense management app for Android and iOS in 52 working days, delivering 25 screens, 13 modal workflows, and 14.4K+ lines of application code.
+- Engineered end-to-end expense tracking, monthly budget, wishlist, ledger, calculator, and dashboard modules with real-time analytics including current-month spend, daily average, weekly average, and month-over-month spending change.
+- Developed collaborative finance workflows for group creation, shared expenses, payment logs, settle-up requests, settlement responses, and reminder flows, backed by 42 REST API integrations.
+- Implemented secure authentication and account management with email/password login, forgot-password recovery, Google Sign-In, Apple Sign-In, Firebase Auth, profile updates, and password change features.
+- Architected scalable client-side data management using Redux Toolkit, Redux Persist, AsyncStorage, and 44 Redux slices to handle transactions, groups, notifications, budgets, content, and user state across sessions.
+- Integrated Firebase Cloud Messaging and Notifee for push notifications, badge count updates, permission handling, foreground/background notification flows, and device-token registration with backend APIs.
+- Added AI-powered financial insights using Gemini API to compare spending against wishlist goals, identify affordable items, and generate personalized product suggestions and spending summaries.
+- Built supplementary user-engagement modules including financial learning resources, article/video content, help/support, terms and privacy screens, and profile personalization to round out the production app experience.
+
+shorter resume bullets
+
+- Built and launched a React Native finance app for Android and iOS in 52 working days, shipping 25 screens and 13 modal workflows for expense tracking, budgeting, and group settlements.
+- Implemented dashboard analytics, ledger, wishlist, and monthly budget features with daily/weekly spending averages and month-over-month expense comparisons.
+- Developed collaborative shared-expense workflows including group creation, payment logs, settle-up requests, reminder flows, and expense split management through 42 REST API integrations.
+- Integrated Firebase Auth, Google Sign-In, Apple Sign-In, Firebase Cloud Messaging, and Notifee to support secure login, push notifications, badge updates, and device-token management.
+- Architected scalable state management with Redux Toolkit, Redux Persist, AsyncStorage, and 44 Redux slices; added Gemini-powered financial insights for wishlist affordability and personalized suggestions.
